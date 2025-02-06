@@ -21,4 +21,4 @@ jobs:
         run: docker build -t your-username/devops-website:latest .
 
       - name: push Docker image to docker hub
-        run: docker push rajakokate/devops-website:lates:t
+        run: docker push rajakokate/devops-website:latest
